@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class HugeInteger {
     private int[] digits = new int[40];
 
