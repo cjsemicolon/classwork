@@ -87,14 +87,14 @@ public class HugeInteger {
     }
 
 
-    public static void main(String[] args) {
-        HugeInteger number1 = new HugeInteger();
-        HugeInteger number2 = new HugeInteger();
-        number1.parse("123456789012345678901234567890");
-        number2.parse("987654321");
-
-        HugeInteger sum = number1.add(number2);
-        System.out.print(sum);
-    }
+//    public static void main(String[] args) {
+//        HugeInteger number1 = new HugeInteger();
+//        HugeInteger number2 = new HugeInteger();
+//        number1.parse("123456789012345678901234567890");
+//        number2.parse("987654321");
+//
+//        HugeInteger sum = number1.add(number2);
+//        System.out.print(sum);
+//    }
 
 }
